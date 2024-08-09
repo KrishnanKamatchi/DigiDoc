@@ -1,0 +1,42 @@
+{
+  "name": "digidoc",
+  "version": "1.0.0",
+  "description": "A real time document manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishnanKamatchi/DigiDoc.git"
+  },
+  "keywords": [
+    "documentManager"
+  ],
+  "author": "Krishnan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/KrishnanKamatchi/DigiDoc/issues"
+  },
+  "homepage": "https://github.com/KrishnanKamatchi/DigiDoc#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "socket.io": "^4.7.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "engineStrict": true
+}
